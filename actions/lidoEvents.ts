@@ -2,7 +2,7 @@ import { Context, TransactionEvent } from "@tenderly/actions";
 
 import axios from "axios";
 
-const subscribeLidoImportantEventsFn = async (
+const subscribeToLidoValidatorExitRequestFn = async (
   context: Context,
   transactionEvent: TransactionEvent,
 ) => {
@@ -83,4 +83,4 @@ const subscribeLidoImportantEventsFn = async (
   }
 };
 
-module.exports = { subscribeLidoImportantEventsFn };
+module.exports = { subscribeToLidoValidatorExitRequestFn };
