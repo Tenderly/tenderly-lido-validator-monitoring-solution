@@ -1,6 +1,6 @@
-account_id: ""
+account_id: "<YOUR_ACCOUNT_ID>"
 actions:
-  account_slug/project_slug:
+  <YOUR_ACCOUNT_ID>/<YOUR_PROJECT_SLUG>:
     runtime: v2
     sources: actions
     specs:
@@ -19,4 +19,4 @@ actions:
                   contract:
                     address: 0x0de4ea0184c2ad0baca7183356aea5b8d5bf5c6e
                   name: ValidatorExitRequest
-project_slug: ""
+project_slug: "<YOUR_PROJECT_SLUG>"
