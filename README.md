@@ -26,7 +26,7 @@ This project sets up a Tenderly Web3 Action to monitor Lido validator exit reque
 3. Set up your Tenderly project:
     - Log in to your Tenderly account
     - Create a new project or use an existing one
-    - Note down your `<YOUR_ACCOUNT_ID>` and `<YOUR_PROJECT_SLUG>`
+    - Note down your `Account Name` and `Project Slug`
 
 4. Configure your `tenderly.yaml` file:
     - Replace the `<YOUR_ACCOUNT_ID>` and `<YOUR_PROJECT_SLUG>` fields with your Tenderly account and project slug
