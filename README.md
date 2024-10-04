@@ -33,7 +33,7 @@ This project sets up a Tenderly Web3 Action to monitor Lido validator exit reque
     - Ensure the `action_name` matches the name you want to use for your Web3 Action
 
 5. Set up your secrets in Tenderly:
-    - Go to your Tenderly project settings
+    - Go to Web3 Actions inside your project
     - Add the following secrets:
         - `BEARER`: Your Tenderly API bearer token
         - `BOT-TOKEN`: Your Telegram bot token

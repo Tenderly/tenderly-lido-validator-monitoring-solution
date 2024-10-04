@@ -1,5 +1,4 @@
 import { Context, TransactionEvent } from "@tenderly/actions";
-
 import axios from "axios";
 
 const subscribeToLidoValidatorExitRequestFn = async (
